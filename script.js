@@ -126,7 +126,7 @@ const english = {
   "infoServiceLabel": "Restaurant info",
   "onlineServiceDetail": "Check availability and book online",
   "listingServiceDetail": "Browse menus, photos, and reviews",
-  "phoneOnlyBookingNote": "Please call the restaurant to reserve a table."
+  "phoneOnlyBookingNote": "Table reservations by phone."
 };
 
 const translations = [...document.querySelectorAll('[data-i18n]')];

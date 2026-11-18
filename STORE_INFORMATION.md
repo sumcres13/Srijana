@@ -53,13 +53,15 @@ Real keeps its own name and a typographic wordmark in the location section; the 
 
 Checked 18 November 2026. A listing's statement that the restaurant accepts reservations does not, by itself, establish that the website supports online booking. The website now shows an **Online booking / ネット予約** label only where a restaurant-specific booking interface was verified. Other provider links are labeled **Restaurant info / 店舗情報**, with a description of the menus, photos, and reviews available there.
 
-| Restaurant | First action | Information links |
+| Restaurant | Reservation options (display order) | Information links |
 | --- | --- | --- |
-| Mejiro | [Tabelog](https://tabelog.com/tokyo/A1305/A130502/13268621/) online booking, then the restaurant's direct phone | Rakuten Gurunavi |
-| Nakamurabashi | [Hot Pepper availability and booking](https://www.hotpepper.jp/strJ001124934/yoyaku/), then the restaurant's direct phone | Tabelog, Rakuten Gurunavi |
+| Mejiro | Direct phone, then [Tabelog](https://tabelog.com/tokyo/A1305/A130502/13268621/) online booking | Rakuten Gurunavi |
+| Nakamurabashi | Direct phone, then [Hot Pepper availability and booking](https://www.hotpepper.jp/strJ001124934/yoyaku/) | Tabelog, Rakuten Gurunavi |
 | Oizumi-gakuen | Direct phone reservation | Tabelog, Rakuten Gurunavi |
-| Real Shakujii-kōen | [Hot Pepper availability and booking](https://www.hotpepper.jp/strJ001124933/yoyaku/), then the restaurant's direct phone | Tabelog |
+| Real Shakujii-kōen | Direct phone, then [Hot Pepper availability and booking](https://www.hotpepper.jp/strJ001124933/yoyaku/) | Tabelog |
 
 Mejiro's Tabelog page exposes its restaurant-specific online booking widget and bookable courses. Both Hot Pepper links above expose the relevant restaurant's availability search, party-size and time selectors, and calendar. No reservation was submitted during checking.
 
 Online-booking controls were not verified on the other supplied Tabelog/Gurunavi listings, so those listings are presented as information links rather than reservation services. This is a conservative classification of the supplied links, not a claim that those platforms can never offer reservations for the restaurant. Provider availability may change.
+
+Phone reservation is displayed first for every restaurant. Verified online-booking links follow the phone, and restaurant-information links follow those. The Oizumi-gakuen phone-reservation note is placed within its phone row, beside the number where space permits and beneath it on the narrowest screens.

@@ -1807,3 +1807,42 @@ html[lang="ja"].budoux-ready body {
   .site-footer .footer-nav { grid-area: navigation; }
   .site-footer .footer-shops { gap: 20px 16px; }
 }
+
+/* Keep the Oizumi phone-reservation note beside its number when space allows. */
+.page-reservation .reservation-card .telephone.has-phone-note > .phone-details {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  gap: 2px 14px;
+  min-width: 0;
+  flex: 1;
+}
+.page-reservation .reservation-card .telephone.has-phone-note .phone-details > strong {
+  grid-column: 1 / -1;
+}
+.page-reservation .reservation-card .telephone.has-phone-note .phone-details > small {
+  grid-column: 1;
+  margin-top: 0;
+}
+.page-reservation .reservation-card .telephone .booking-phone-note {
+  grid-column: 2;
+  margin: 0;
+  max-width: 15em;
+  color: var(--muted);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+}
+@media (max-width: 380px) {
+  .page-reservation .reservation-card .telephone.has-phone-note > .phone-details {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .page-reservation .reservation-card .telephone .booking-phone-note {
+    grid-column: 1;
+    max-width: none;
+    text-align: center;
+    margin-top: 3px;
+  }
+}
