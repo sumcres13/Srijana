@@ -1846,3 +1846,21 @@ html[lang="ja"].budoux-ready body {
     margin-top: 3px;
   }
 }
+
+/* Give mobile footer branding the same visual weight as its navigation. */
+@media (max-width: 760px) {
+  .site-footer .footer-identity .footer-brand-lockup { gap: 8px; }
+  .site-footer .footer-brand-lockup img {
+    width: clamp(38px, 10.7vw, 48px);
+    height: clamp(38px, 10.7vw, 48px);
+    flex: 0 0 auto;
+  }
+  .site-footer .footer-brand-lockup strong { font-size: clamp(23px, 6.7vw, 31px); }
+  .site-footer .footer-brand-lockup small { font-size: clamp(8.5px, 2.2vw, 10px); }
+  .site-footer .footer-identity p {
+    max-width: 28ch;
+    margin-top: 16px;
+    font-size: clamp(12px, 3.1vw, 14px);
+    line-height: 1.9;
+  }
+}
