@@ -6,21 +6,21 @@ const english = {
   "navAbout": "ABOUT US",
   "navAccess": "LOCATIONS",
   "navReservation": "RESERVATIONS",
-  "footerTagline": "Indian curries and Asian dishes in Mejiro and Nakamurabashi.",
+  "footerTagline": "Indian curries and Asian dishes across four Tokyo neighborhoods.",
   "footerContact": "CONTACT",
   "footerNavigation": "NAVIGATION",
   "pageTop": "BACK TO TOP ↑",
   "homeHeroTitle": "<span class=\"hero-title-top\">Great flavours.</span><span class=\"hero-title-bottom\">Shared moments.</span>",
-  "homeHeroLead": "Indian curries and Asian dishes at Srijana.<br>Find us in Mejiro and Nakamurabashi.",
+  "homeHeroLead": "Indian curries and Asian dishes at Srijana and Real.<br>Four welcoming restaurants across Tokyo.",
   "homeHeroReserve": "RESERVE A TABLE",
   "homeHeroAccess": "FIND A LOCATION",
   "homeIntroLabel": "ABOUT SRIJANA",
   "homeIntroTitle": "Indian and Asian<br>cuisine in Tokyo",
-  "homeIntroP1": "At our restaurants in Mejiro and Nakamurabashi, we serve Indian curries, naan, and tandoori dishes alongside specialties such as Nepali momo.",
+  "homeIntroP1": "Our three Srijana restaurants and Real Shakujii-kōen bring Indian curries, naan, and tandoori dishes to four Tokyo neighborhoods, with flavors from across Asia.",
   "homeIntroP2": "Come for a curry-and-naan lunch set, or share tandoori dishes and biryani over dinner.",
   "homeIntroLink": "ABOUT US ↗",
   "homeShopsEyebrow": "OUR RESTAURANTS",
-  "homeShopsTitle": "Srijana in two neighborhoods",
+  "homeShopsTitle": "Four neighborhoods,<br>one warm welcome",
   "shopInfoLink": "VIEW LOCATION ↗",
   "homeReserveTitle": "Reservations & inquiries",
   "homeReserveLink": "VIEW RESERVATIONS →",
@@ -32,7 +32,7 @@ const english = {
   "ceoRole": "Representative Director",
   "ceoName": "Bijay Bhandari",
   "ceoMessage1": "Thank you for visiting our website. I’m Bijay Bhandari, representative director of Srijana.",
-  "ceoMessage2": "At Srijana in Mejiro and Nakamurabashi, we want guests to feel at home over Indian curries and dishes from across Asia. Whether you come for curry and naan at lunch or share momo and tandoori dishes at dinner, I hope you find something you’ll want to come back for.",
+  "ceoMessage2": "At Srijana in Mejiro, Nakamurabashi, and Oizumi-gakuen, and at Real in Shakujii-kōen, we want guests to feel at home over Indian curries and dishes from across Asia. Whether you join us for curry and naan at lunch or share dishes over dinner, I hope you find a table you’ll want to return to.",
   "aboutValuesTitle": "Around our table",
   "aboutValue1": "Indian curries",
   "aboutValue1Detail": "Pair a fragrant curry with naan and enjoy at your own pace.",
@@ -44,9 +44,9 @@ const english = {
   "companyFieldName": "Name",
   "companyFieldRepresentative": "Representative Director",
   "companyFieldBusiness": "Business",
-  "companyBusinessFull": "Operates two Indian and Asian restaurants in Tokyo.",
+  "companyBusinessFull": "Operates four Indian and Asian restaurants in Tokyo: three Srijana locations and Real Shakujii-kōen.",
   "accessHeroTitle": "Locations",
-  "accessTitle": "Find your Srijana",
+  "accessTitle": "Four places to gather",
   "addressLabel": "Address",
   "phoneLabel": "Phone",
   "hoursLabel": "Hours",
@@ -64,7 +64,7 @@ const english = {
   "reserveEyebrow": "RESERVATIONS & DELIVERY",
   "reservationHeroTitle": "Reserve a table",
   "reservationTitle": "Choose your restaurant",
-  "reservationIntro": "See booking and delivery options for Mejiro and Nakamurabashi.",
+  "reservationIntro": "Booking and delivery for Srijana Mejiro, Nakamurabashi, Oizumi-gakuen, and Real Shakujii-kōen.",
   "shopAccessLink": "HOURS & DIRECTIONS ↗",
   "reserveMethodsHeading": "Reserve a table",
   "deliveryHeading": "Delivery",
@@ -91,8 +91,36 @@ const english = {
   "bookGurunavi": "Rakuten Gurunavi",
   "bookHotpepper": "Hot Pepper Gourmet",
   "ceoMessageTitle": "A message from our representative director",
-  "ceoMessage3": "Thank you to everyone who makes Srijana part of their neighborhood. If you’re visiting for the first time, please make yourself at home. Our team looks forward to welcoming you.",
-  "ceoSign": "Bijay Bhandari · Representative Director"
+  "ceoMessage3": "Thank you to everyone who makes our restaurants part of their neighborhood. If you’re visiting for the first time, please make yourself at home. Our team looks forward to welcoming you.",
+  "ceoSign": "Bijay Bhandari · Representative Director",
+  "companyBrands": "Indian Asian Kitchen Srijana / Real Indian Asian Restaurant & Bar",
+  "confirmHoliday": "Please contact the restaurant",
+  "confirmHoursNote": "Public-holiday hours may vary. Please call the restaurant to confirm.",
+  "providerAvailability": "Please check each service for current ordering availability.",
+  "companyFieldOizumi": "Oizumi-gakuen",
+  "companyFieldReal": "Shakujii-kōen",
+  "storeOizumiShort": "Oizumi-gakuen",
+  "storeOizumiIndex": "Oizumi-gakuen",
+  "oizumiName": "Srijana Oizumi-gakuen",
+  "accessOizumiName": "Indian Asian Kitchen<br>Srijana Oizumi-gakuen",
+  "oizumiAddressShort": "Room 6, ラパ, 6-28-2 Oizumigakuencho, Nerima-ku, Tokyo 178-0061",
+  "oizumiHours": "Mon–Fri 11:00–15:00<br>17:00–22:30<br>Sat–Sun 11:00–22:30",
+  "homeOizumiSummary": "Wooden window frames, red booths, and a sheltered entrance give Oizumi-gakuen its relaxed neighborhood atmosphere. Settle in for curry, naan, and time together.",
+  "accessOizumiHeading": "Warm wood,<br>a neighborhood welcome",
+  "accessOizumiP1": "Reached via the Seibu Bus stop “Tomin Noen,” Srijana Oizumi-gakuen welcomes you with wooden fittings and warm red booths.",
+  "accessOizumiP2": "Come in for a curry-and-naan lunch or settle around a table with family and friends over dinner. The wood-lined dining room makes an easy place to unwind.",
+  "storeRealShort": "Real · Shakujii-kōen",
+  "storeRealIndex": "Shakujii-kōen",
+  "realName": "Real Shakujii-kōen",
+  "accessRealName": "Indian Asian Restaurant & Bar<br>Real Shakujii-kōen",
+  "realAddressShort": "Ono Ichibankan 1F, 3-19-12 Shakujiimachi, Nerima-ku, Tokyo",
+  "realHours": "Mon–Fri 11:00–15:00<br>17:00–23:00<br>Sat–Sun 11:00–16:00<br>17:00–23:00",
+  "homeRealSummary": "Beneath its orange awning near Shakujii-kōen Station, Real pairs Himalayan photographs and patterned tablecloths with Indian curries and dishes from across Asia.",
+  "accessRealHeading": "A colorful table,<br>close to Shakujii-kōen",
+  "accessRealP1": "A short walk from Shakujii-kōen Station, Real’s orange awning leads to a bright dining room with Himalayan photographs and patterned tablecloths.",
+  "accessRealP2": "Explore Indian curries, naan, and dishes inspired by Nepal and Asia. Come for a meal or take your time over dinner and a drink.",
+  "googleClosure": "Please check Google Maps",
+  "deliveryDemaecan": "Demae-can"
 };
 
 const translations = [...document.querySelectorAll('[data-i18n]')];
@@ -141,10 +169,10 @@ if (requestedLanguage === 'ja' || requestedLanguage === 'en') language = request
 const metaDescription = document.querySelector('meta[name=description]');
 const originalDescription = metaDescription?.content || '';
 const englishDescriptions = {
-  "home": "Indian Asian Kitchen Srijana serves Indian curries and Asian dishes in Mejiro and Nakamurabashi.",
-  "about": "A welcome from Bijay Bhandari, owner of Indian Asian Kitchen Srijana.",
-  "access": "Addresses, hours, phone numbers, and directions for Srijana Mejiro and Nakamurabashi.",
-  "reservation": "Table reservations and delivery for Srijana Mejiro and Nakamurabashi."
+  "home": "Indian curries and Asian dishes at four Tokyo restaurants: Srijana Mejiro, Nakamurabashi, Oizumi-gakuen, and Real Shakujii-kōen.",
+  "about": "Meet Bijay Bhandari, representative director of three Srijana restaurants and Real Shakujii-kōen.",
+  "access": "Addresses, hours, phone numbers, and directions for all four Srijana and Real restaurants in Tokyo.",
+  "reservation": "Booking and delivery options for Srijana Mejiro, Nakamurabashi, Oizumi-gakuen, and Real Shakujii-kōen."
 };
 const imageAlts = [...document.querySelectorAll('img[alt]')].map((image) => ({ image, ja: image.alt }));
 const altEnglish = {
@@ -154,7 +182,13 @@ const altEnglish = {
   "nakamurabashi-exterior.webp": "Orange sign and second-floor windows at Srijana Nakamurabashi",
   "mejiro-dining-2.webp": "Tables along painted landscape walls inside Srijana Mejiro",
   "bijay-bhandari.webp": "Bijay Bhandari, representative director of Srijana",
-  "nakamurabashi-dining-2.webp": "Arched windows and dining tables inside Srijana Nakamurabashi"
+  "nakamurabashi-dining-2.webp": "Arched windows and dining tables inside Srijana Nakamurabashi",
+  "oizumigakuen-exterior.webp": "Signboard and wooden entrance at Srijana Oizumi-gakuen",
+  "oizumigakuen-dining-1.webp": "Wooden tables by the entrance at Srijana Oizumi-gakuen",
+  "oizumigakuen-dining-2.webp": "Red booth seating and wooden dining tables at Srijana Oizumi-gakuen",
+  "real-shakujiikoen-exterior.webp": "Orange awning and entrance at Real Shakujii-kōen",
+  "real-shakujiikoen-dining-1.webp": "Himalayan photographs and tables inside Real Shakujii-kōen",
+  "real-shakujiikoen-dining-2.webp": "Bright dining room and patterned tablecloths inside Real Shakujii-kōen"
 };
 const japaneseText = /[\u3040-\u30ff\u3400-\u9fff\uff66-\uff9f々〆]/;
 function applyJapaneseLineBreaks() {
@@ -215,7 +249,7 @@ function applyLanguage(nextLanguage) {
   document.querySelector('.reservation-deck')?.setAttribute('aria-label', language === 'en' ? 'Reservations and delivery by shop' : '店舗別のご予約とデリバリー');
   document.querySelectorAll('.access-map iframe').forEach((frame, index) => { frame.title = language === 'en' ? `Map to the ${index === 0 ? 'Mejiro' : 'Nakamurabashi'} shop` : `${index === 0 ? '目白店' : '中村橋店'}の地図`; });
   document.querySelectorAll('.delivery-method').forEach((link) => {
-    const brand = link.querySelector('span')?.textContent || '';
+    const brand = link.querySelector('span:not(.provider-mark):not(.method-arrow)')?.textContent || '';
     link.setAttribute('aria-label', language === 'en' ? `Order from ${brand}` : `${brand}で注文`);
   });
   applyJapaneseLineBreaks();

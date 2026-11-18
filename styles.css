@@ -1652,3 +1652,59 @@ html[lang="ja"].budoux-ready body {
 @media (prefers-reduced-motion: reduce) {
   .language-switch.is-animated::before { transition: none; }
 }
+
+/* Additional restaurants reuse the established two-column layouts. */
+.home-shop-grid { row-gap: 28px; }
+.home-shop:nth-child(3) > img { object-position: center 24%; }
+.home-shop:nth-child(4) > img { object-position: center 30%; }
+.access-shop-wordmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em;
+  flex: 0 0 2.5em;
+  color: var(--cta-orange);
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 700;
+}
+.page-access .access-store .store-hours-note {
+  grid-column: 1 / -1;
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+.page-reservation .reservation-card .deck-facts .store-hours-note {
+  display: block;
+  margin: 9px 0 0;
+  padding: 0;
+  border: 0;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.provider-mark {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  color: #fff;
+  background: #d52725;
+}
+.page-reservation .reservation-card .delivery-method .provider-mark { font-size: 8px; font-weight: 800; }
+.page-reservation .reservation-card .delivery-availability {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: center;
+}
+.page-access .access-details p small,
+.page-reservation .deck-facts small { font-size: 10px; color: var(--muted); }
+
+/* Keep each new restaurant's sign visible in its opening gallery photo. */
+#oizumigakuen .access-gallery-images img:first-child,
+#real-shakujiikoen .access-gallery-images img:first-child { object-position: center top; }

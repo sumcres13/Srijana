@@ -1,11 +1,11 @@
 # Indian Asian Kitchen Srijana
 
-A static Japanese/English website for the Mejiro and Nakamurabashi restaurants.
+A static Japanese/English website for four Tokyo restaurants: Srijana Mejiro, Srijana Nakamurabashi, Srijana Oizumi-gakuen, and Real Shakujii-kōen.
 
-- `index.html` — Restaurant introduction and both locations
+- `index.html` — Restaurant introduction and all four locations
 - `about.html` — A message from Representative Director Bijay Bhandari
 - `access.html` — Branch photo galleries, addresses, hours, phone numbers, and directions
-- `reservation.html` — Two branch cards with booking and delivery links
+- `reservation.html` — Four restaurant cards with booking and delivery links
 
 Open `index.html` in a browser, or serve this folder with `python3 -m http.server 8000`. There is no build step. To deploy to static hosting, upload the entire folder, including `assets/` and `vendor/`. Keep the relative file paths intact.
 
@@ -37,3 +37,11 @@ shasum -a 256 -c SHA256SUMS
 ```
 
 On Linux, use `sha256sum -c SHA256SUMS` instead. All entries should report `OK`.
+
+## Restaurant data and photographs
+
+The website includes four restaurants. See `STORE_INFORMATION.md` for the source listings and the date on which new branch details were checked.
+
+The six supplied Oizumi-gakuen and Real photographs are stored as lossless WebP images. Their decoded RGB pixels were checked against the supplied PNG files and matched exactly; they were not resized or retouched. Existing images are retained unchanged.
+
+Booking links open the relevant third-party listings. Delivery links use the supplied store IDs; preset customer delivery addresses and tracking parameters have been removed. Availability is determined by each provider.
