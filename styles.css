@@ -1708,3 +1708,102 @@ html[lang="ja"].budoux-ready body {
 /* Keep each new restaurant's sign visible in its opening gallery photo. */
 #oizumigakuen .access-gallery-images img:first-child,
 #real-shakujiikoen .access-gallery-images img:first-child { object-position: center top; }
+
+/* Two restaurant brands share one concise introduction. */
+.page-home .home-about-copy h2 { font-size: clamp(32px, 3.4vw, 46px); line-height: 1.4; }
+
+/* Make a service's actual purpose visible beside its name. */
+.page-reservation .reservation-card .booking-method .provider-copy { gap: 4px; min-width: 0; }
+.page-reservation .reservation-card .booking-method .provider-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px 10px;
+}
+.page-reservation .reservation-card .booking-method[data-service-purpose] .provider-copy > small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.service-purpose {
+  display: inline-block;
+  padding: 3px 7px;
+  border-radius: 4px;
+  font-size: 10px;
+  line-height: 1.4;
+  font-style: normal;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.service-purpose-online { color: #fff; background: var(--cta-orange); }
+.service-purpose-info { color: #5f5647; background: #eee7db; }
+.page-reservation .reservation-card .booking-method[data-service-purpose="online"] {
+  border-bottom-color: var(--gold);
+}
+.booking-phone-note { margin: 0 0 10px; font-size: 11px; color: var(--muted); text-align: center; }
+
+/* Two shops in each contact column, alongside the brand and navigation. */
+.site-footer .footer-main {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.65fr) minmax(100px, .5fr);
+  gap: clamp(24px, 3vw, 44px);
+}
+.site-footer .footer-shops {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, auto);
+  grid-auto-flow: column;
+  gap: 18px 24px;
+}
+.site-footer .footer-shop { min-width: 0; }
+.site-footer .footer-shop > p:not(.footer-address) { margin: 0; }
+.site-footer .footer-contact .footer-shop p > span,
+:lang(en) .site-footer .footer-contact .footer-shop p > span {
+  display: block;
+  min-width: 0;
+  margin: 0 0 2px;
+  font-weight: 600;
+}
+.site-footer .footer-shop p > a { display: inline-block; font-size: 12px; }
+.site-footer .footer-contact .footer-shop .footer-address,
+:lang(en) .site-footer .footer-contact .footer-shop .footer-address {
+  padding: 0;
+  margin: 4px 0 0;
+  font-size: 10px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  .site-footer .footer-main {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-areas: "identity contacts" "navigation contacts";
+    align-items: start;
+    row-gap: 18px;
+  }
+  .site-footer .footer-identity { grid-area: identity; }
+  .site-footer .footer-contact { grid-area: contacts; }
+  .site-footer .footer-nav { grid-area: navigation; }
+}
+@media (max-width: 760px) {
+  .page-home .home-about-copy h2 { font-size: clamp(26px, 7.4vw, 42px); }
+  .page-reservation .reservation-card .deck-booking-group h4 { font-size: 18px; gap: 8px; padding-inline: 12px; }
+  .page-reservation .reservation-card .booking-method .provider-title { justify-content: center; }
+  .site-footer .footer-main {
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+    grid-template-areas: "identity navigation" "contact contact";
+    gap: 26px 20px;
+    align-items: start;
+  }
+  .site-footer .footer-identity { grid-area: identity; text-align: left; }
+  .site-footer .footer-identity .footer-brand-lockup { margin-inline: 0; gap: 6px; }
+  .site-footer .footer-brand-lockup img { width: 34px; height: 34px; }
+  .site-footer .footer-brand-lockup strong { font-size: clamp(20px, 5vw, 26px); }
+  .site-footer .footer-brand-lockup small { font-size: 7.5px; }
+  .site-footer .footer-identity p { margin-top: 12px; font-size: 11px; line-height: 1.8; }
+  .site-footer .footer-contact { grid-area: contact; }
+  .site-footer .footer-contact h2 { margin-bottom: 14px; }
+  .site-footer .footer-nav { grid-area: navigation; }
+  .site-footer .footer-shops { gap: 20px 16px; }
+}

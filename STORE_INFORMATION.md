@@ -48,3 +48,18 @@ All six new photographs were supplied by the owner. They are encoded as lossless
 | `assets/real-shakujiikoen-dining-2.webp` | `real interior slideshow 3.png` |
 
 Real keeps its own name and a typographic wordmark in the location section; the Srijana logo is not presented as Real's shop logo.
+
+## Online reservation capability check
+
+Checked 18 November 2026. A listing's statement that the restaurant accepts reservations does not, by itself, establish that the website supports online booking. The website now shows an **Online booking / ネット予約** label only where a restaurant-specific booking interface was verified. Other provider links are labeled **Restaurant info / 店舗情報**, with a description of the menus, photos, and reviews available there.
+
+| Restaurant | First action | Information links |
+| --- | --- | --- |
+| Mejiro | [Tabelog](https://tabelog.com/tokyo/A1305/A130502/13268621/) online booking, then the restaurant's direct phone | Rakuten Gurunavi |
+| Nakamurabashi | [Hot Pepper availability and booking](https://www.hotpepper.jp/strJ001124934/yoyaku/), then the restaurant's direct phone | Tabelog, Rakuten Gurunavi |
+| Oizumi-gakuen | Direct phone reservation | Tabelog, Rakuten Gurunavi |
+| Real Shakujii-kōen | [Hot Pepper availability and booking](https://www.hotpepper.jp/strJ001124933/yoyaku/), then the restaurant's direct phone | Tabelog |
+
+Mejiro's Tabelog page exposes its restaurant-specific online booking widget and bookable courses. Both Hot Pepper links above expose the relevant restaurant's availability search, party-size and time selectors, and calendar. No reservation was submitted during checking.
+
+Online-booking controls were not verified on the other supplied Tabelog/Gurunavi listings, so those listings are presented as information links rather than reservation services. This is a conservative classification of the supplied links, not a claim that those platforms can never offer reservations for the restaurant. Provider availability may change.

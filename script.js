@@ -6,7 +6,7 @@ const english = {
   "navAbout": "ABOUT US",
   "navAccess": "LOCATIONS",
   "navReservation": "RESERVATIONS",
-  "footerTagline": "Indian curries and Asian dishes across four Tokyo neighborhoods.",
+  "footerTagline": "Srijana & Real. Four neighborhood restaurants in Tokyo.",
   "footerContact": "CONTACT",
   "footerNavigation": "NAVIGATION",
   "pageTop": "BACK TO TOP ↑",
@@ -14,10 +14,10 @@ const english = {
   "homeHeroLead": "Indian curries and Asian dishes at Srijana and Real.<br>Four welcoming restaurants across Tokyo.",
   "homeHeroReserve": "RESERVE A TABLE",
   "homeHeroAccess": "FIND A LOCATION",
-  "homeIntroLabel": "ABOUT SRIJANA",
-  "homeIntroTitle": "Indian and Asian<br>cuisine in Tokyo",
-  "homeIntroP1": "Our three Srijana restaurants and Real Shakujii-kōen bring Indian curries, naan, and tandoori dishes to four Tokyo neighborhoods, with flavors from across Asia.",
-  "homeIntroP2": "Come for a curry-and-naan lunch set, or share tandoori dishes and biryani over dinner.",
+  "homeIntroLabel": "SRIJANA & REAL",
+  "homeIntroTitle": "Srijana & Real<br>Four local tables",
+  "homeIntroP1": "We run four neighborhood restaurants in Tokyo under two names: Srijana in Mejiro, Nakamurabashi, and Oizumi-gakuen, and Real in Shakujii-kōen.",
+  "homeIntroP2": "Each restaurant has its own character, with Indian curries, naan, tandoori dishes, and flavors from across Asia. Join us for an everyday lunch or a shared evening meal.",
   "homeIntroLink": "ABOUT US ↗",
   "homeShopsEyebrow": "OUR RESTAURANTS",
   "homeShopsTitle": "Four neighborhoods,<br>one warm welcome",
@@ -31,8 +31,8 @@ const english = {
   "aboutHeroTitle": "About us",
   "ceoRole": "Representative Director",
   "ceoName": "Bijay Bhandari",
-  "ceoMessage1": "Thank you for visiting our website. I’m Bijay Bhandari, representative director of Srijana.",
-  "ceoMessage2": "At Srijana in Mejiro, Nakamurabashi, and Oizumi-gakuen, and at Real in Shakujii-kōen, we want guests to feel at home over Indian curries and dishes from across Asia. Whether you join us for curry and naan at lunch or share dishes over dinner, I hope you find a table you’ll want to return to.",
+  "ceoMessage1": "Thank you for visiting our website. I’m Bijay Bhandari. As representative director, I oversee our four restaurants under the Srijana and Real names.",
+  "ceoMessage2": "Our Srijana restaurants in Mejiro, Nakamurabashi, and Oizumi-gakuen and Real in Shakujii-kōen each have a character of their own. What connects them is our wish to make Indian and Asian cooking feel welcoming, whether you are stopping in for lunch or sharing dinner with the people closest to you.",
   "aboutValuesTitle": "Around our table",
   "aboutValue1": "Indian curries",
   "aboutValue1Detail": "Pair a fragrant curry with naan and enjoy at your own pace.",
@@ -66,7 +66,7 @@ const english = {
   "reservationTitle": "Choose your restaurant",
   "reservationIntro": "Booking and delivery for Srijana Mejiro, Nakamurabashi, Oizumi-gakuen, and Real Shakujii-kōen.",
   "shopAccessLink": "HOURS & DIRECTIONS ↗",
-  "reserveMethodsHeading": "Reserve a table",
+  "reserveMethodsHeading": "Reservations & info",
   "deliveryHeading": "Delivery",
   "bookPhone": "Reserve by phone",
   "galleryLink": "More photos on Tabelog ↗",
@@ -91,8 +91,8 @@ const english = {
   "bookGurunavi": "Rakuten Gurunavi",
   "bookHotpepper": "Hot Pepper Gourmet",
   "ceoMessageTitle": "A message from our representative director",
-  "ceoMessage3": "Thank you to everyone who makes our restaurants part of their neighborhood. If you’re visiting for the first time, please make yourself at home. Our team looks forward to welcoming you.",
-  "ceoSign": "Bijay Bhandari · Representative Director",
+  "ceoMessage3": "We are grateful to the neighbors and guests who support each of our four restaurants. We will continue to prepare every dish with care and offer the warm welcome you can count on. Our team looks forward to seeing you at Srijana and Real.",
+  "ceoSign": "Srijana & Real<br>Bijay Bhandari · Representative Director",
   "companyBrands": "Indian Asian Kitchen Srijana / Real Indian Asian Restaurant & Bar",
   "confirmHoliday": "Please contact the restaurant",
   "confirmHoursNote": "Public-holiday hours may vary. Please call the restaurant to confirm.",
@@ -120,7 +120,13 @@ const english = {
   "accessRealP1": "A short walk from Shakujii-kōen Station, Real’s orange awning leads to a bright dining room with Himalayan photographs and patterned tablecloths.",
   "accessRealP2": "Explore Indian curries, naan, and dishes inspired by Nepal and Asia. Come for a meal or take your time over dinner and a drink.",
   "googleClosure": "Please check Google Maps",
-  "deliveryDemaecan": "Demae-can"
+  "deliveryDemaecan": "Demae-can",
+  "operatingBrands": "SRIJANA & REAL",
+  "onlineServiceLabel": "Online booking",
+  "infoServiceLabel": "Restaurant info",
+  "onlineServiceDetail": "Check availability and book online",
+  "listingServiceDetail": "Browse menus, photos, and reviews",
+  "phoneOnlyBookingNote": "Please call the restaurant to reserve a table."
 };
 
 const translations = [...document.querySelectorAll('[data-i18n]')];
@@ -170,7 +176,7 @@ const metaDescription = document.querySelector('meta[name=description]');
 const originalDescription = metaDescription?.content || '';
 const englishDescriptions = {
   "home": "Indian curries and Asian dishes at four Tokyo restaurants: Srijana Mejiro, Nakamurabashi, Oizumi-gakuen, and Real Shakujii-kōen.",
-  "about": "Meet Bijay Bhandari, representative director of three Srijana restaurants and Real Shakujii-kōen.",
+  "about": "Meet Bijay Bhandari and the team behind Srijana and Real, four Indian and Asian restaurants in Tokyo.",
   "access": "Addresses, hours, phone numbers, and directions for all four Srijana and Real restaurants in Tokyo.",
   "reservation": "Booking and delivery options for Srijana Mejiro, Nakamurabashi, Oizumi-gakuen, and Real Shakujii-kōen."
 };
@@ -181,7 +187,7 @@ const altEnglish = {
   "mejiro-entrance.webp": "Orange entrance to the Mejiro restaurant",
   "nakamurabashi-exterior.webp": "Orange sign and second-floor windows at Srijana Nakamurabashi",
   "mejiro-dining-2.webp": "Tables along painted landscape walls inside Srijana Mejiro",
-  "bijay-bhandari.webp": "Bijay Bhandari, representative director of Srijana",
+  "bijay-bhandari.webp": "Bijay Bhandari, representative director overseeing Srijana and Real",
   "nakamurabashi-dining-2.webp": "Arched windows and dining tables inside Srijana Nakamurabashi",
   "oizumigakuen-exterior.webp": "Signboard and wooden entrance at Srijana Oizumi-gakuen",
   "oizumigakuen-dining-1.webp": "Wooden tables by the entrance at Srijana Oizumi-gakuen",
